@@ -1,0 +1,29 @@
+{
+  "name": "pccomponentes/apm-symfony-http-client",
+  "description": "Elastic APM for Symfony HttpClient",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Alberto Vioque",
+      "email": "alberto.vioque@pccomponentes.com"
+    },
+    {
+      "name": "Chechu García",
+      "email": "franciscoj.morote@pccomponentes.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PcComponentes\\ApmSymfonyHttpClient\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.4",
+    "zoilomora/elastic-apm-agent-php": "^0.1",
+    "symfony/http-client-contracts": "^2.1-dev"
+  },
+  "require-dev": {
+    "pccomponentes/coding-standard": "^1.0"
+  }
+}
