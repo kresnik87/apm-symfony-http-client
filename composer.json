@@ -19,9 +19,9 @@
     }
   },
   "require": {
-    "php": "^7.4",
+    "php": "^7.4|^8.1",
     "zoilomora/elastic-apm-agent-php": "^0.1",
-    "symfony/http-client-contracts": "^2.1-dev"
+    "symfony/http-client-contracts": "^3.1"
   },
   "require-dev": {
     "pccomponentes/coding-standard": "^1.0"
