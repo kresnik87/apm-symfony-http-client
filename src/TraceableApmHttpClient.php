@@ -110,4 +110,9 @@ class TraceableApmHttpClient implements HttpClientInterface, ResetInterface
         );
         return $response;
     }
+
+    public function withOptions(array $options): static
+    {
+        // TODO: Implement withOptions() method.
+    }
 }
