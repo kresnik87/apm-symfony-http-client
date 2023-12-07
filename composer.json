@@ -20,7 +20,7 @@
   },
   "require": {
     "php": "^7.4|^8.1",
-    "zoilomora/elastic-apm-agent-php": "^0.1",
+    "zoilomora/elastic-apm-agent-php": "^1.0",
     "symfony/http-client-contracts": "^3.1"
   },
   "require-dev": {
